@@ -57,7 +57,9 @@
     <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
 
     <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
+
     @livewireStyles
+
 
     <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script src="{{ asset('assets/js/vendor/modernizr-3.11.2.min.js') }}"></script>
@@ -174,9 +176,8 @@
     <script src="{{ asset('assets/js/plugins/easyzoom.js') }}"></script>
     <script src="{{ asset('assets/js/plugins/slinky.min.js') }}"></script>
     <script src="{{ asset('assets/js/plugins/ajax-mail.js') }}"></script>
-    <script src="{{ asset('assets/js/loading.js') }}"></script>
+    {{-- <script src="{{ asset('assets/js/loading.js') }}"></script> --}}
     <script src="{{ asset('assets/js/counter.js?ver=1.0.3') }}"></script>
-
     <script src="{{ asset('assets/js/main.js?ver=1.0.3') }}"></script>
     @include('sweetalert::alert')
     @stack('script')

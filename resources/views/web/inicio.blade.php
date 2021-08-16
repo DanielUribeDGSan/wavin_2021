@@ -18,7 +18,7 @@
                                             </a>
                                         </div>
                                         <h2 class="animated">Furnirtre</h2>
-                                        <img class="animated" src="assets/images/icon-img/chair.png" alt="">
+
                                     </div>
                                 </div>
                             </div>
@@ -41,7 +41,7 @@
                                             </a>
                                         </div>
                                         <h2 class="animated">Furnirtre</h2>
-                                        <img class="animated" src="assets/images/icon-img/chair.png" alt="">
+
                                     </div>
                                 </div>
                             </div>
@@ -71,47 +71,7 @@
                                 <a class="btn btn-verde">09:00 a 10:00 h | GMT-5 (hora de México)</a>
                             </div>
                             <hr>
-                            <form>
-                                <div class="row">
-                                    <div class="col-lg-6 col-md-6 col-12 mt-3">
-                                        <input type="text" class="form-control" name="nombre" id="nombre"
-                                            placeholder="Nombre *">
-                                    </div>
-                                    <div class="col-lg-6 col-md-6 col-12 mt-3">
-                                        <input type="text" class="form-control" name="apellidos" id="apellidos"
-                                            placeholder="Apellidos *">
-                                    </div>
-                                    <div class="col-lg-6 col-md-6 col-12 mt-3">
-                                        <input type="text" class="form-control" name="telefono" id="telefono"
-                                            placeholder="Teléfono *">
-                                    </div>
-                                    <div class="col-lg-6 col-md-6 col-12 mt-3">
-                                        <select class="form-control" name="pais" id="pais">
-                                            <option selected disabled>País *</option>
-                                            <option>Opción 1</option>
-                                        </select>
-                                    </div>
-                                    <div class="col-lg-6 col-md-6 col-12 mt-3">
-                                        <input type="text" class="form-control" name="email" id="email"
-                                            placeholder="Email corporativo *">
-                                    </div>
-                                    <div class="col-lg-6 col-md-6 col-12 mt-3">
-                                        <select class="form-control" name="marcaDual" id="marcaDual">
-                                            <option selected disabled>Marca Dual *</option>
-                                        </select>
-                                    </div>
-                                    <div class="col-lg-6 col-md-6 col-12 mt-3">
-                                        <div class="form-check d-flex align-items-center justify-content-end h-100">
-                                            <input type="checkbox" class="form-check-input" name="aviso" id="aviso">
-                                            <label class="form-check-label ml-10" for="aviso">Acepto aviso de
-                                                privacidad</label>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-6 col-md-6 col-12 mt-3">
-                                        <button class="btn btn-azul" type="submit">Registrarme</button>
-                                    </div>
-                                </div>
-                            </form>
+                            @livewire('form-register')
                         </div>
                     </div>
                     <div class="card h-auto mt-3 mb-lg-0 mb-md-3 mb-3">

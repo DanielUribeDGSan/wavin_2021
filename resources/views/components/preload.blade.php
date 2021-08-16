@@ -21,193 +21,44 @@
         }
 
         .preloader .loading-skeleton {
-            margin: 0rem 0rem 2rem 0rem;
+            margin: 0rem;
+        }
+
+        .header-height-1 {
+            min-height: 20px;
+            height: 70px !important;
         }
 
     </style>
     <header class="header-area header-responsive-padding header-height-1 loading-skeleton">
-        {{-- <div class="header-top d-none d-lg-block bg-gray">
-            <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-lg-6 col-6">
-                        <div class="welcome-text">
-                            <p>Default Welcome Msg! </p>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-6">
-                        <div class="language-currency-wrap">
-                            <div class="currency-wrap border-style">
-                                <a class="currency-active" >$ Dollar (US) <i class=" ti-angle-down "></i></a>
-                                <div class="currency-dropdown">
-                                    <ul>
-                                        <li><a >Taka (BDT) </a></li>
-                                        <li><a >Riyal (SAR) </a></li>
-                                        <li><a >Rupee (INR) </a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="language-wrap">
-                                <a class="language-active" ><img
-                                        src="{{ asset('assets/images/icon-img/flag.png') }}" alt=""> English <i
-                                        class=" ti-angle-down "></i></a>
-                                <div class="language-dropdown">
-                                    <ul>
-                                        <li><a ><img src="{{ asset('assets/images/icon-img/flag.png') }}"
-                                                    alt="">English
-                                            </a></li>
-                                        <li><a ><img src="{{ asset('assets/images/icon-img/spanish.png') }}"
-                                                    alt="">Spanish</a></li>
-                                        <li><a ><img src="{{ asset('assets/images/icon-img/arabic.png') }}"
-                                                    alt="">Arabic
-                                            </a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div> --}}
         <div class="header-bottom sticky-bar">
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-lg-3 col-md-6 col-6">
                         <div class="logo">
-                            <a href="{{ route('inicio') }}"><img
-                                    src="{{ asset('assets/images/logo/logo_kasa.png') }}" style="width: 95px"
-                                    alt="logo"></a>
+                            <a href="index.html"><img src="./assets/images/logo/logo.png" alt="logo"></a>
                         </div>
                     </div>
-                    <div class="col-lg-6 d-none d-lg-block d-flex justify-content-center">
+                    <div class="col-lg-9 ocultar_movil d-flex justify-content-end">
                         <div class="main-menu text-center">
                             <nav>
                                 <ul>
-                                    <li><a href="{{ route('inicio') }}">HOME</a>
-                                    </li>
-                                    <li><a href="shop.html">SHOP</a>
-                                        <ul class="mega-menu-style mega-menu-mrg-1">
-                                            <li>
-                                                <ul>
-                                                    <div
-                                                        class="row w-100 d-flex align-items-center justify-content-between">
-
-                                                        <div class="col-auto mt-2 mr-auto ml-auto overflow-auto"
-                                                            style="height: 300px">
-                                                            <li>
-                                                                <div class="mb-3"
-                                                                    style="width: 150px; height: 100px;background-image: url({{ asset('assets/images/logo/logo.png') }}">
-                                                                </div>
-                                                                <a class="dropdown-title">Categoria</a>
-                                                                <ul>
-                                                                    <li><a>suvcategoria</a>
-                                                                    </li>
-                                                                </ul>
-                                                            </li>
-                                                        </div>
-                                                        {{-- <div class="col-auto mt-2">
-                                                            <li>
-                                                                <a class="dropdown-title" >Shop Layout</a>
-                                                                <ul>
-                                                                    <li><a href="shop.html">standard style</a></li>
-                                                                    <li><a href="shop-sidebar.html">shop grid
-                                                                            sidebar</a>
-                                                                    </li>
-                                                                    <li><a href="shop-list.html">shop list style</a>
-                                                                    </li>
-                                                                    <li><a href="shop-list-sidebar.html">shop list
-                                                                            sidebar</a></li>
-                                                                    <li><a href="shop-right-sidebar.html">shop right
-                                                                            sidebar</a></li>
-                                                                    <li><a href="shop-location.html">store location</a>
-                                                                    </li>
-                                                                </ul>
-                                                            </li>
-                                                        </div> --}}
-                                                    </div>
-                                                    {{-- <li>
-                                                        <div class="row">
-                                                            <div class="col-auto mt-2">
-                                                                <a href="shop.html"><img
-                                                                        src="{{ asset('assets/images/banner/menu.png') }}"
-                                                                        alt=""></a>
-                                                            </div>
-                                                            <div class="col-auto mt-2">
-                                                                <a href="shop.html"><img
-                                                                        src="{{ asset('assets/images/banner/menu.png') }}"
-                                                                        alt=""></a>
-                                                            </div>
-                                                        </div>
-                                                    </li> --}}
-                                                </ul>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                    <li><a>PAGES</a>
-                                    </li>
-                                    <li><a href="blog.html">BLOG</a>
-                                    </li>
-                                    <li><a href="about-us.html">ABOUT</a></li>
-                                    <li><a href="contact-us.html">CONTACT US</a></li>
+                                    <li><a href="about-us.html">Español</a></li>
+                                    <li><a href="contact-us.html">Portugués</a></li>
                                 </ul>
                             </nav>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-6 col-6">
+                    <div class="col-lg-3 col-md-6 col-6 ocultar_pc">
                         <div class="header-action-wrap">
-                            <div class="header-action-style header-search-1">
-                                <a class="search-toggle">
-                                    <i class="pe-7s-search s-open"></i>
-                                    <i class="pe-7s-close s-close"></i>
-                                </a>
-                                <div class="search-wrap-1">
-                                    <div class="d-flex justify-content-center align-items-center">
-
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="header-action-style">
-
-                                <div class="language-currency-wrap language-currency-wrap-modify">
-                                    <div class="currency-wrap border-style">
-                                        <a class="currency-active"><i class="pe-7s-user"
-                                                style="font-size: 23px;"></i></a>
-                                        <div class="currency-dropdown">
-                                            <ul>
-                                                @auth
-                                                    <li><a>Mi perfil</a></li>
-                                                    <li><a class="hover__orange"
-                                                            onclick="event.preventDefault(); document.getElementById('logout-form').submit();">Cerrar
-                                                            Sesión </a>
-                                                        <form id="logout-form" action="{{ route('logout') }}"
-                                                            method="POST" style="display: none;">
-                                                            @csrf </form>
-                                                    </li>
-                                                @else
-                                                    <li><a>Iniciar sesión </a></li>
-                                                    <li><a>Registrarme </a></li>
-                                                @endauth
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="header-action-style">
-                                <a title="Wishlist"><i class="pe-7s-like"></i></a>
-                            </div>
-
-                            <div>
-
-                                <div class="header-action-style header-action-cart ">
-                                    <a class="cart-active"><i class="pe-7s-shopbag"></i>
-                                    </a>
-                                </div>
-
-
-
-                            </div>
-
+                            {{-- <div class="header-action-style">
+                                <a title="Login Register" href="login-register.html"><i class="pe-7s-user"></i></a>
+                            </div> --}}
                             <div class="header-action-style d-block d-lg-none">
-                                <a class="mobile-menu-active-button"><i class="pe-7s-menu"></i></a>
+                                <a class="mobile-menu-active-button " href="#">Español</a>
+                            </div>
+                            <div class="header-action-style d-block d-lg-none">
+                                <a class="mobile-menu-active-button" href="#">Portugués</a>
                             </div>
                         </div>
                     </div>
@@ -215,75 +66,115 @@
             </div>
         </div>
     </header>
+    <div class="slider-area father_content h-auto">
+        <div class="slider-active swiper-container h-auto">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="intro-section slider-height-1 slider-content-center bg-img single-animation-wrap slider-bg-color-2"
+                        style="background-image:url(assets/images/slider/slider-bg-2.jpg)">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-12 hm2-slider-animation">
+                                    <div class="slider-content-2 slider-content-2-wrap slider-animated-2">
+                                        <h3 class="animated">Up To 40% Off</h3>
+                                        <h1 class="animated">Summer <br>Collection</h1>
+                                        <div class="slider-btn-2 btn-hover">
+                                            <a href="product-details.html"
+                                                class="btn hover-border-radius theme-color animated">
+                                                Shop Now
+                                            </a>
+                                        </div>
+                                        <h2 class="animated">Furnirtre</h2>
 
-    <div class="">
-        <div class="container-fluid loading-skeleton">
-            <div class="row">
-                <div class="col-lg-3 col-md-4 col-12">
-                    <div class="card card__loading" style="height: calc(100vh - 10rem);overflow: hidden;">
-                        <div class="" style="display: flex;align-items: center;   justify-content: center;">
-                            <img src="{{ asset('assets/images/logo/logo_kasa.png') }}" alt="logo kasa"
-                                style="width: 200px;">
-                        </div>
-
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up
-                                the bulk
-                                of the card's content.</p>
-                            <a class="btn btn-primary">Go somewhere</a>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-4 col-12">
-                    <div class="card card__loading" style="height: calc(100vh - 10rem);overflow: hidden;">
-                        <div class="" style="display: flex;align-items: center;   justify-content: center;">
-                            <img src="{{ asset('assets/images/logo/logo_kasa.png') }}" alt="logo kasa"
-                                style="width: 200px;">
-                        </div>
+                <div class="swiper-slide">
+                    <div class="intro-section slider-height-1 slider-content-center bg-img single-animation-wrap slider-bg-color-2"
+                        style="background-image:url(assets/images/slider/slider-bg-2-2.jpg)">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-12 hm2-slider-animation">
+                                    <div class="slider-content-2 slider-content-2-wrap slider-animated-2">
+                                        <h3 class="animated">Up To 40% Off</h3>
+                                        <h1 class="animated">Summer <br>Collection</h1>
+                                        <div class="slider-btn-2 btn-hover">
+                                            <a href="product-details.html"
+                                                class="btn hover-border-radius theme-color animated">
+                                                Shop Now
+                                            </a>
+                                        </div>
+                                        <h2 class="animated">Furnirtre</h2>
 
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up
-                                the bulk
-                                of the card's content.</p>
-                            <a class="btn btn-primary">Go somewhere</a>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-4 col-12">
-                    <div class="card card__loading" style="height: calc(100vh - 10rem);overflow: hidden;">
-                        <div class="" style="display: flex;align-items: center;   justify-content: center;">
-                            <img src="{{ asset('assets/images/logo/logo_kasa.png') }}" alt="logo kasa"
-                                style="width: 200px;">
-                        </div>
+                <div class="home-slider-prev2 main-slider-nav2"><i class="fa fa-angle-left"></i></div>
+                <div class="home-slider-next2 main-slider-nav2"><i class="fa fa-angle-right"></i></div>
+            </div>
+        </div>
+        <div class="child_content">
+            <div class="row p-0 m-0 h-100">
+                <div class="col-lg-6 col-md-12 col-12 h-100 ocultar_movil">
 
+                </div>
+                <div class="col-lg-6 col-md-12 col-12 h-100">
+                    <div class="card h-auto mt-3">
                         <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up
-                                the bulk
-                                of the card's content.</p>
-                            <a class="btn btn-primary">Go somewhere</a>
+                            <h4 class="cl-azul-m text-uppercase fw-600 text-center">Bienvenido(a)</h4>
+                            <p class="text-justify cl-negro fw-100">Le damos la bienvenida a nuestro sitio de registro
+                                para
+                                este
+                                especial evento donde
+                                conoceremos la nueva campaña Gear Up en LATAM.</p>
+                            <div class="d-flex align-items-center justify-content-center">
+                                <a class="btn btn-azul-m">10 de septiembre</a>
+                                <a class="btn btn-verde">09:00 a 10:00 h | GMT-5 (hora de México)</a>
+                            </div>
+                            <hr>
+                            @livewire('form-register')
+                        </div>
+                    </div>
+                    <div class="card h-auto mt-3 mb-lg-0 mb-md-3 mb-3">
+                        <div class="card-body">
+                            <div class="row d-flex align-items-center justify-content-center">
+                                <div class="col-2 text-right pr-0">
+                                    <img class="img-fluid img_emoji"
+                                        src="{{ asset('assets/images/emojis/happy.svg') }}" alt="emoji">
+                                </div>
+                                <div class="col-8">
+                                    <div id="time2"></div>
+                                </div>
+                                <div class="col-2 text-left pl-0">
+                                    <img class="img-fluid img_emoji"
+                                        src="{{ asset('assets/images/emojis/scared.svg') }}" alt="emoji">
+                                </div>
+                            </div>
+
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-4 col-12">
-                    <div class="card card__loading" style="height: calc(100vh - 10rem);overflow: hidden;">
-                        <div class="" style="display: flex;align-items: center;   justify-content: center;">
-                            <img src="{{ asset('assets/images/logo/logo_kasa.png') }}" alt="logo kasa"
-                                style="width: 200px;">
-                        </div>
-
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up
-                                the bulk
-                                of the card's content.</p>
-                            <a class="btn btn-primary">Go somewhere</a>
-                        </div>
+            </div>
+        </div>
+        <div class="content-footer bg-azul">
+            <div class="container">
+                <div class="row w-60">
+                    <div class="col-4">
+                        <img class="img-fluid" src="{{ asset('assets/images/logo/logo.png') }}" alt="wavin">
+                    </div>
+                    <div class="col-6 pl-0">
+                        <p class="ml-10 text-white">Lorem ipsum
+                            dolor sit amet, consectetur adipisicing elit. Est delectus veniam perferendis. Natus eveniet
+                            omnis
+                            sunt facere. </p>
                     </div>
                 </div>
-
             </div>
         </div>
     </div>

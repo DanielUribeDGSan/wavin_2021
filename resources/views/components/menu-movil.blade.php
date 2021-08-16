@@ -1,4 +1,4 @@
-<div class="off-canvas-active">
+{{-- <div class="off-canvas-active">
     <a class="off-canvas-close"><i class=" ti-close "></i></a>
     <div class="off-canvas-wrap">
         <div class="welcome-text off-canvas-margin-padding">
@@ -101,4 +101,4 @@
             </div>
         </div>
     </div>
-</div>
+</div> --}}
