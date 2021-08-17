@@ -4,10 +4,10 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Urdan - Minimal eCommerce HTML Template</title>
+    <title>Wavin</title>
     <meta name="robots" content="noindex, follow" />
     <meta name="description"
-        content="Urdan Minimal eCommerce Bootstrap 5 Template is a stunning eCommerce website template that is the best choice for any online store.">
+        content="Le damos la bienvenida a nuestro sitio de registro para este especial evento donde conoceremos la nueva campaña Gear Up en LATAM.">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="profile" href="https://gmpg.org/xfn/11">
     <link rel="canonical" href="https://htmldemo.hasthemes.com/urdan/index.html" />
@@ -15,18 +15,18 @@
     <!-- Open Graph (OG) meta tags are snippets of code that control how URLs are displayed when shared on social media  -->
     <meta property="og:locale" content="en_US" />
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="Urdan - Minimal eCommerce HTML Template" />
+    <meta property="og:title" content="Wavin" />
     <meta property="og:url" content="https://htmldemo.hasthemes.com/urdan/index.html" />
-    <meta property="og:site_name" content="Urdan - Minimal eCommerce HTML Template" />
+    <meta property="og:site_name" content="Wavin" />
     <!-- For the og:image content, replace the # with a link of an image -->
     <meta property="og:image" content="#" />
     <meta property="og:description"
-        content="Urdan Minimal eCommerce Bootstrap 5 Template is a stunning eCommerce website template that is the best choice for any online store." />
+        content="Le damos la bienvenida a nuestro sitio de registro para este especial evento donde conoceremos la nueva campaña Gear Up en LATAM." />
     <!-- Add site Favicon -->
-    <link rel="icon" href="{{ asset('assets/images/favicon/cropped-favicon-32x32.png') }}" sizes="32x32" />
-    <link rel="icon" href="{{ asset('assets/images/favicon/cropped-favicon-192x192.png') }}" sizes="192x192" />
-    <link rel="apple-touch-icon" href="{{ asset('assets/images/favicon/cropped-favicon-180x180.png') }}" />
-    <meta name="msapplication-TileImage" content="{{ asset('assets/images/favicon/cropped-favicon-270x270.png') }}" />
+    <link rel="icon" href="{{ asset('assets/images/favicon/w.png') }}" sizes="32x32" />
+    <link rel="icon" href="{{ asset('assets/images/favicon/w.png') }}" sizes="192x192" />
+    <link rel="apple-touch-icon" href="{{ asset('assets/images/favicon/w.png') }}" />
+    <meta name="msapplication-TileImage" content="{{ asset('assets/images/favicon/w.png') }}" />
 
     <!-- All CSS is here
  ============================================ -->
@@ -176,7 +176,7 @@
     <script src="{{ asset('assets/js/plugins/easyzoom.js') }}"></script>
     <script src="{{ asset('assets/js/plugins/slinky.min.js') }}"></script>
     <script src="{{ asset('assets/js/plugins/ajax-mail.js') }}"></script>
-    {{-- <script src="{{ asset('assets/js/loading.js') }}"></script> --}}
+    <script src="{{ asset('assets/js/loading.js') }}"></script>
     <script src="{{ asset('assets/js/counter.js?ver=1.0.3') }}"></script>
     <script src="{{ asset('assets/js/main.js?ver=1.0.3') }}"></script>
     @include('sweetalert::alert')

@@ -4,22 +4,13 @@
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
                     <div class="intro-section slider-height-1 slider-content-center bg-img single-animation-wrap slider-bg-color-2"
-                        style="background-image:url(assets/images/slider/slider-bg-2.jpg)">
+                        style="background-image:url(assets/images/slider/Pais_Argentina.png)">
                         <div class="container">
                             <div class="row">
                                 <div class="col-12 hm2-slider-animation">
-                                    <div class="slider-content-2 slider-content-2-wrap slider-animated-2">
-                                        <h3 class="animated">Up To 40% Off</h3>
-                                        <h1 class="animated">Summer <br>Collection</h1>
-                                        <div class="slider-btn-2 btn-hover">
-                                            <a href="product-details.html"
-                                                class="btn hover-border-radius theme-color animated">
-                                                Shop Now
-                                            </a>
-                                        </div>
-                                        <h2 class="animated">Furnirtre</h2>
-
-                                    </div>
+                                    <img class="img-fluid img_circle_slider"
+                                        src="{{ asset('assets/images/imagesCircle/GU_Avanza_Plastigama.png') }}"
+                                        alt="">
                                 </div>
                             </div>
                         </div>
@@ -27,22 +18,137 @@
                 </div>
                 <div class="swiper-slide">
                     <div class="intro-section slider-height-1 slider-content-center bg-img single-animation-wrap slider-bg-color-2"
-                        style="background-image:url(assets/images/slider/slider-bg-2-2.jpg)">
+                        style="background-image:url(assets/images/slider/Pais_Brasil.png)">
                         <div class="container">
                             <div class="row">
                                 <div class="col-12 hm2-slider-animation">
-                                    <div class="slider-content-2 slider-content-2-wrap slider-animated-2">
-                                        <h3 class="animated">Up To 40% Off</h3>
-                                        <h1 class="animated">Summer <br>Collection</h1>
-                                        <div class="slider-btn-2 btn-hover">
-                                            <a href="product-details.html"
-                                                class="btn hover-border-radius theme-color animated">
-                                                Shop Now
-                                            </a>
-                                        </div>
-                                        <h2 class="animated">Furnirtre</h2>
-
-                                    </div>
+                                    <img class="img-fluid img_circle_slider"
+                                        src="{{ asset('assets/images/imagesCircle/GU_Avanza_Amanco_ARG.png') }}"
+                                        alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="intro-section slider-height-1 slider-content-center bg-img single-animation-wrap slider-bg-color-2"
+                        style="background-image:url(assets/images/slider/Pais_CostaRica.png)">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-12 hm2-slider-animation">
+                                    <img class="img-fluid img_circle_slider"
+                                        src="{{ asset('assets/images/imagesCircle/GU_Avanza_Amanco_ESP.png') }}"
+                                        alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="intro-section slider-height-1 slider-content-center bg-img single-animation-wrap slider-bg-color-2"
+                        style="background-image:url(assets/images/slider/Pais_Ecuador.png)">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-12 hm2-slider-animation">
+                                    <img class="img-fluid img_circle_slider"
+                                        src="{{ asset('assets/images/imagesCircle/GU_Avanza_Amanco_POR.png') }}"
+                                        alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="intro-section slider-height-1 slider-content-center bg-img single-animation-wrap slider-bg-color-2"
+                        style="background-image:url(assets/images/slider/Pais_Guatemala.png)">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-12 hm2-slider-animation">
+                                    <img class="img-fluid img_circle_slider"
+                                        src="{{ asset('assets/images/imagesCircle/GU_Avanza_Pavco.png') }}" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="intro-section slider-height-1 slider-content-center bg-img single-animation-wrap slider-bg-color-2"
+                        style="background-image:url(assets/images/slider/Pais_Honduras.png)">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-12 hm2-slider-animation">
+                                    <img class="img-fluid img_circle_slider"
+                                        src="{{ asset('assets/images/imagesCircle/GU_Avanza_Plastigama.png') }}"
+                                        alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="intro-section slider-height-1 slider-content-center bg-img single-animation-wrap slider-bg-color-2"
+                        style="background-image:url(assets/images/slider/Pais_Mexico.png)">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-12 hm2-slider-animation">
+                                    <img class="img-fluid img_circle_slider"
+                                        src="{{ asset('assets/images/imagesCircle/GU_Avanza_Amanco_ARG.png') }}"
+                                        alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="intro-section slider-height-1 slider-content-center bg-img single-animation-wrap slider-bg-color-2"
+                        style="background-image:url(assets/images/slider/Pais_Nicaragua.png)">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-12 hm2-slider-animation">
+                                    <img class="img-fluid img_circle_slider"
+                                        src="{{ asset('assets/images/imagesCircle/GU_Avanza_Amanco_ESP.png') }}"
+                                        alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="intro-section slider-height-1 slider-content-center bg-img single-animation-wrap slider-bg-color-2"
+                        style="background-image:url(assets/images/slider/Pais_Panama.png)">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-12 hm2-slider-animation">
+                                    <img class="img-fluid img_circle_slider"
+                                        src="{{ asset('assets/images/imagesCircle/GU_Avanza_Amanco_POR.png') }}"
+                                        alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="intro-section slider-height-1 slider-content-center bg-img single-animation-wrap slider-bg-color-2"
+                        style="background-image:url(assets/images/slider/Pais_Peru.png)">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-12 hm2-slider-animation">
+                                    <img class="img-fluid img_circle_slider"
+                                        src="{{ asset('assets/images/imagesCircle/GU_Avanza_Pavco.png') }}" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="intro-section slider-height-1 slider-content-center bg-img single-animation-wrap slider-bg-color-2"
+                        style="background-image:url(assets/images/slider/Pais_Venezuela.png)">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-12 hm2-slider-animation">
+                                    <img class="img-fluid img_circle_slider"
+                                        src="{{ asset('assets/images/imagesCircle/GU_Avanza_Plastigama.png') }}"
+                                        alt="">
                                 </div>
                             </div>
                         </div>
@@ -79,14 +185,14 @@
                             <div class="row d-flex align-items-center justify-content-center">
                                 <div class="col-2 text-right pr-0">
                                     <img class="img-fluid img_emoji"
-                                        src="{{ asset('assets/images/emojis/happy.svg') }}" alt="emoji">
+                                        src="{{ asset('assets/images/emojis/GU_emoji_manita.png') }}" alt="emoji">
                                 </div>
                                 <div class="col-8">
                                     <div id="time2"></div>
                                 </div>
                                 <div class="col-2 text-left pl-0">
                                     <img class="img-fluid img_emoji"
-                                        src="{{ asset('assets/images/emojis/scared.svg') }}" alt="emoji">
+                                        src="{{ asset('assets/images/emojis/GU_emoji_carita.png') }}" alt="emoji">
                                 </div>
                             </div>
 
@@ -98,10 +204,10 @@
         <div class="content-footer bg-azul">
             <div class="container">
                 <div class="row w-60">
-                    <div class="col-4">
-                        <img class="img-fluid" src="{{ asset('assets/images/logo/logo.png') }}" alt="wavin">
+                    <div class="col-lg-4 mt-lg-0 mt-md-2 mt-3">
+                        <img class="img-fluid" src="{{ asset('assets/images/logo/GU_Logo_Orbia.png') }}" alt="wavin">
                     </div>
-                    <div class="col-6 pl-0">
+                    <div class="col-lg-6 col pl-0 mt-lg-0 mt-md-2 mt-3">
                         <p class="ml-10 text-white">Lorem ipsum
                             dolor sit amet, consectetur adipisicing elit. Est delectus veniam perferendis. Natus eveniet
                             omnis

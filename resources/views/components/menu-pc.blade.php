@@ -5,7 +5,8 @@
                 <div class="row align-items-center">
                     <div class="col-lg-3 col-md-6 col-6">
                         <div class="logo">
-                            <a href="index.html"><img src="./assets/images/logo/logo.png" alt="logo"></a>
+                            <a href="{{ route('inicio') }}"><img src="./assets/images/logo/GU_Logo_Wavin.png"
+                                    alt="logo"></a>
                         </div>
                     </div>
                     <div class="col-lg-9 ocultar_movil d-flex justify-content-end">
