@@ -1123,6 +1123,22 @@ textarea {
 .main-menu > nav > ul > li:hover > a {
     color: #e97730;
 }
+.main-menu > nav > ul > .active > a {
+    color: #e97730;
+}
+.main-menu > nav > ul > .active > a::after {
+    content: "";
+    height: 2px;
+    right: 0px;
+    bottom: 0px;
+    left: auto;
+    width: 0;
+    position: absolute;
+    -webkit-transition: all 0.4s ease 0s;
+    -o-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
+    background-color: #e97730;
+}
 
 .main-menu > nav > ul > li:hover > a::after {
     left: 0px;

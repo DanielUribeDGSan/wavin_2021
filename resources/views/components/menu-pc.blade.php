@@ -13,7 +13,7 @@
                         <div class="main-menu text-center">
                             <nav>
                                 <ul>
-                                    <li><a href="about-us.html">Español</a></li>
+                                    <li class="active"><a href="about-us.html">Español</a></li>
                                     <li><a href="contact-us.html">Portugués</a></li>
                                 </ul>
                             </nav>
